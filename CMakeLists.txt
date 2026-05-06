@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(include)
 
-add_library(OffGridSpatial src/Coordinate.cpp)
+add_library(OffGridSpatial src/Coordinate.cpp src/Waypoint.cpp)
