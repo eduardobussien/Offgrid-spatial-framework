@@ -15,6 +15,7 @@ namespace OffGrid {
         const Waypoint* getClosestWaypoint(const Coordinate& current_pos, PointType target_type) const;
 
         bool exportToCSV(const std::string& filename) const;
+        bool importFromCSV(const std::string& filename);
     };
 
 }
