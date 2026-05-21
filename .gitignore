@@ -1,0 +1,8 @@
+# IDE Settings
+.vscode/
+
+# CMake & Build Artifacts
+build/
+*.exe
+*.obj
+*.a
